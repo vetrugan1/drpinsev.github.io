@@ -1,0 +1,121 @@
+/* */
+
+/*********************************
+
+* Author: Repeckiy A.V.
+* The Project for education. 
+* Date: 26.06.2019
+
+* Style for all pages 
+
+*********************************/
+
+#footer {
+    color: brown;
+    text-align: center;
+}
+
+#download {
+    color: brown;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+body {
+    background: #13212C;
+}
+
+.cont_ref {
+    text-decoration: none;
+    color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+#contacts h2 pre, h3 pre {
+    color: brown;
+}
+
+#contacts div {
+    text-align: center;
+    background: #23281C;
+    border-radius: 10px;
+    color: brown;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+#contacts {
+    padding-left: 520px;
+    padding-right: 540px;
+}
+
+#ws {
+    color: whitesmoke;
+}
+
+.contents h2 {
+    color: brown;
+    text-align: center;
+}
+
+.contents p {
+    color: antiquewhite;
+    text-align: center;
+    font-family: serif;
+}
+
+.cont_ref:hover{
+    color: brown;
+}
+
+.cont_ref:active{
+    color: orange;
+}
+
+
+#drPis{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.img {
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+ }
+ 
+.img:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+ }
+
+hr {
+    border: 10px solid antiquewhite;
+    border-radius: 5px;
+}
+
+.button {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: .5em 2em;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #FDBE33 #000 #D77206;
+    border-radius: 6px;
+    background: linear-gradient(#F3AE0F, #E38916) #E38916;
+    transition: 0.2s;
+} 
+
+.button:hover { 
+    background: linear-gradient(#f5ae00, #f59500) #f5ae00;
+}
+.button:active { 
+    background: linear-gradient(#f59500, #f5ae00) #f59500; }
+}
