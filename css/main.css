@@ -10,6 +10,23 @@
 
 *********************************/
 
+
+h1 {
+    color: brown;
+    text-align: center;
+    text-shadow: black 0 0 3px;
+}
+
+#footer h3:last-child{
+    font-size: 120%;
+}
+
+.drPis {
+    color: antiquewhite;
+    text-decoration: none;
+    color: brown;
+}
+
 #footer {
     color: brown;
     text-align: center;
@@ -22,10 +39,11 @@
 
 .center {
     text-align: center;
+    color: brown;
 }
 
 body {
-    background: #13212C;
+    background: linear-gradient(to top, #13212C, #790000);
 }
 
 .cont_ref {
@@ -49,7 +67,7 @@ body {
 }
 
 #contacts {
-    padding-left: 520px;
+    padding-left: 540px;
     padding-right: 540px;
 }
 
@@ -60,6 +78,7 @@ body {
 .contents h2 {
     color: brown;
     text-align: center;
+    text-shadow: black 0 0 3px;
 }
 
 .contents p {
@@ -76,16 +95,11 @@ body {
     color: orange;
 }
 
-
-#drPis{
-    color: antiquewhite;
-    text-decoration: none;
-}
-
 .img {
     -moz-transition: all 1s ease-out;
     -o-transition: all 1s ease-out;
     -webkit-transition: all 1s ease-out;
+    box-shadow: black 0 0 10px;
  }
  
 .img:hover{
